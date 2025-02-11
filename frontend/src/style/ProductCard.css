@@ -1,0 +1,40 @@
+/* ProductCard.css */
+/* .product-card {
+  position: relative;
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+} 
+
+.product-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+.wishlist-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px; /* Adjust the font size */
+  color: #ddd; /* Default color */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.favorite {
+  color: #ff5a5f; /* Favorite color */
+}
+
+.btn-add-to-cart {
+  margin-top: 10px;
+}
+
+/* .card-body {
+  height: 150px; /* Adjust as needed */
+
+
+/* Additional styling as needed */
+/* @media (max-width: 768px) {
+  .card {
+    /* height: auto; /* Adjust the height for smaller screens */

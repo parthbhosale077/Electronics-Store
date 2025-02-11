@@ -1,0 +1,55 @@
+.address-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+  }
+  
+  .address-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+  }
+  
+  .address-image {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .address-form {
+    padding: 30px;
+  }
+  
+  .address-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .already-have-account {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .already-have-account a {
+    color: #ff5a5f;
+    text-decoration: none;
+  }
+  
+  .address-box form button {
+    background-color: #ff5a5f;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .address-box form button:hover {
+    background-color: #e0454c;
+  }
